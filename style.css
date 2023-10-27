@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home {
+    margin: 10rem auto;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+#home-pic {
+    width: 13rem;
+}
+
+#skills {
+    background-color: #66cc99;
+    color: #fff;
+}
+
+#skills ul {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+#skills ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: bisque;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#skills ul li i {
+    margin-right: 10px;
+    color: #fff;
+}
+
+#skills ul li:hover {
+    background-color: #45a049;
+}
+
+#projects {
+    background-color: #4d94ff;
+    color: #333;
+}
+
+#projects .project {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#projects .project video {
+    display: block;
+    margin: 3rem auto;
+    margin-top: 10px;
+}
+
+#education {
+    background-color: #ffb366;
+    color: #333;
+}
+
+#education .edu {
+    border-radius: 8px;
+    margin: 20px 0;
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+
+#education .edu p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+#contact {
+    background-color: #ff6666;
+    color: #333;
+}
+
+#contact p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
